@@ -12,34 +12,33 @@ You are required to build a simple personal finance management tool. The program
 ● Exit the program gracefully when the user chooses to.
 All tasks must be implemented using loops, if-else, lists, and dictionaries only. No user-defined functions or file handling should be used.
 
-Sample Output:
-Welcome to Expense Tracker 💸
+Sample Output: <br>
+Welcome to Expense Tracker <br>
 ======= OPERATION =======
-1️ Add Expense
-2️⃣ View All Expenses
-3️ View Total Spending
-4️ Exit
-=====================
-Enter your choice (1-4): 1
-Enter date (DD-MM-YYYY): 05-11-2025
-Enter category (Food, Travel, Shopping, etc): Food
-Enter short description: Lunch
-Enter amount (₹): 150
-✅ Expense added successfully!
-======= MENU =======
-1️ Add Expense
-2️ View All Expenses
-3️ View Total Spending
-4️ Exit
-=====================
+1) Add Expense
+2) View All Expenses
+3) View Total Spending
+4) Exit <br>
+===================== <br>
+Enter your choice (1-4): 1 <br>
+Enter date (DD-MM-YYYY): 05-11-2025 <br>
+Enter category (Food, Travel, Shopping, etc): Food <br>
+Enter short description: Lunch <br>
+Enter amount (₹): 150 <br>
+Expense added successfully! <br>
+======= MENU ======= <br>
+1) Add Expense 
+2) View All Expenses
+3) View Total Spending
+4) Exit
+===================== <br>
 Enter your choice (1-4): 3
-💰 Total Spending = ₹150
-
-Concept
-Purpose
-while loop = To repeat the menu until user exits
-if-elif-else = To handle menu options
-list = To store multiple expenses
-dictionary = To store details of each expense
-for loop = To display and calculate totals
-input() / print() = For user interaction
+Total Spending = ₹150
+<br>
+Concept Purpose <br>
+while loop = To repeat the menu until user exits <br>
+if-elif-else = To handle menu options <br>
+list = To store multiple expenses <br>
+dictionary = To store details of each expense <br>
+for loop = To display and calculate totals <br>
+input() / print() = For user interaction <br>
