@@ -1,3 +1,45 @@
 # Personal-Finance-Tracker
 This is My First Python Project Also First Repository 
 - Admin AKSHAY KHAPARE
+
+Create a console based Expense Tracker program in python that allows the user to record daily expenses and view summaries that totaly spending. use only the concept learning (loops , conditional statements , dictonaries and basic input and output).
+
+Project Details / Description:
+You are required to build a simple personal finance management tool. The program should allow the user to:
+● Add an expense with details like date, category, description, and amount.
+● View all recorded expenses in a clean format.
+● Calculate total spending so far.
+● Exit the program gracefully when the user chooses to.
+All tasks must be implemented using loops, if-else, lists, and dictionaries only. No user-defined functions or file handling should be used.
+
+Sample Output:
+Welcome to Expense Tracker 💸
+======= OPERATION =======
+1️ Add Expense
+2️⃣ View All Expenses
+3️ View Total Spending
+4️ Exit
+=====================
+Enter your choice (1-4): 1
+Enter date (DD-MM-YYYY): 05-11-2025
+Enter category (Food, Travel, Shopping, etc): Food
+Enter short description: Lunch
+Enter amount (₹): 150
+✅ Expense added successfully!
+======= MENU =======
+1️ Add Expense
+2️ View All Expenses
+3️ View Total Spending
+4️ Exit
+=====================
+Enter your choice (1-4): 3
+💰 Total Spending = ₹150
+
+Concept
+Purpose
+while loop = To repeat the menu until user exits
+if-elif-else = To handle menu options
+list = To store multiple expenses
+dictionary = To store details of each expense
+for loop = To display and calculate totals
+input() / print() = For user interaction
