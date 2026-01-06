@@ -19,10 +19,10 @@ while True :
         amount = float(input("Enter Amount: "))
         
         expense = {
-            "date " : date , 
-            "category " : category , 
-            "desc " : desc , 
-            "amount " : amount
+            "date" : date , 
+            "category" : category , 
+            "desc" : desc , 
+            "amount" : amount
         }
         expenses_list.append(expense)
         print("--- EXPENSE ADDED SUCESSFULLY ---")
@@ -35,7 +35,7 @@ while True :
             print("\n--- All Expenses ---")
         i = 1
         for e in expenses_list:
-            print(f"{i}. {e['date']} | {e['category']} | {e['description']} | ₹{e['amount']}")
+            print(f"{i}. {e['date']} | {e['category']} | {e['desc']} | ₹{e['amount']}")
             i += 1
             print("---------------------")
 
@@ -43,13 +43,13 @@ while True :
     elif (choice == 3) :
         total = 0
         for e in expenses_list :
-            total = total + e ["Amount: "]
+            total = total + e ["amount"]
         print("\n TOTAL EXPENCES = ", total)
 
 # OPTION 4 EXIT 
     elif choice == 4:
         print("\nThanks for using Expense Tracker! Bye!")
-    break
+        break
 
     
 
